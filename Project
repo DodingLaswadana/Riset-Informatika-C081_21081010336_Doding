@@ -1,0 +1,72 @@
+Integrasi AI pada Website Pembelajaran untuk Sekolah Menengah Atas
+
+Tujuan Penelitian
+  - Platform ini akan membantu meningkatkan efisiensi dan efektivitas dalam pengelolaan pembelajaran dan administrasi.
+  - Mempermudah guru dalam mengelola materi pembelajaran, pemberian tugas, ujian, serta penilaian siswa.
+  - Membantu murid dalam mengakses materi pembelajaran, tugas, dan ujian dengan lebih mudah, serta memonitor performa belajar mereka.
+  - Memudahkan pengelolaan data murid, guru, serta struktur pembelajaran.
+  - Mengembangkan website pembelajaran dengan fitur standar yang memfasilitasi guru, murid, dan admin.
+  - Mengintegrasikan fitur berbasis AI yang dapat meningkatkan efisiensi dan kemudahan dalam penggunaan sistem bagi semua pengguna.
+
+Fitur Utama Website
+Fitur Guru:
+
+  -Pemberian Tugas: Guru dapat membuat dan mendistribusikan tugas kepada murid. Guru juga dapat menentukan tenggat waktu serta jenis tugas (misalnya, pilihan ganda atau esai).
+  -Penilaian Tugas: Setelah murid mengumpulkan tugas, guru dapat memberikan penilaian dan komentar.
+  -Pemberian Materi Pembelajaran: Guru dapat mengunggah materi pembelajaran dalam berbagai format (PDF, video, slide, dll.) dan mendistribusikannya kepada murid.
+  -Pemberian Ujian: Guru dapat membuat ujian online dengan berbagai jenis soal, seperti pilihan ganda, isian singkat, atau esai.
+  -Penilaian Ujian dan Penyimpanan Nilai: Guru dapat memberikan nilai untuk ujian yang dikerjakan murid dan menyimpan nilai tersebut untuk diolah menjadi nilai akhir.
+  -Absensi: Guru dapat mencatat kehadiran murid dalam setiap sesi pembelajaran.
+
+Fitur Murid:
+
+  -Absensi Online: Murid dapat melakukan absensi secara online setiap harinya.
+  -Pengumpulan Tugas: Murid dapat melihat tugas yang diberikan oleh guru dan mengunggah jawaban tugas tersebut.
+  -Pengisian Ujian: Murid dapat mengerjakan ujian yang diberikan oleh guru sesuai jadwal yang telah ditetapkan.
+  -Akses Materi Pembelajaran: Murid dapat mengunduh atau membaca materi yang diunggah oleh guru.
+
+Fitur Admin:
+
+  -Manajemen Akun: Admin dapat menambah, mengedit, dan menghapus akun guru serta murid.
+  -Pengaturan Mata Pelajaran dan Kelas: Admin dapat menambah dan mengurangi mata pelajaran, membagi guru berdasarkan mata pelajaran dan jurusan, serta membagi murid berdasarkan jurusan dan kelas.
+  -Pengaturan Guru dan Murid: Admin dapat mengatur alokasi guru ke mata pelajaran yang relevan dan mengatur distribusi murid berdasarkan jurusan.
+
+Fitur Tambahan Implementasi AI:
+  1. Fitur Guru dengan AI
+  Pemberian Tugas dan Ujian dengan Rekomendasi AI: Guru dapat dibantu oleh sistem AI untuk merekomendasikan soal atau jenis tugas berdasarkan materi yang telah diunggah. AI dapat menggunakan database soal yang ada dan menyesuaikannya dengan tingkat kesulitan yang diinginkan oleh guru.
+  Penilaian Otomatis: AI dapat digunakan untuk penilaian otomatis pada soal-soal pilihan ganda dan jawaban singkat. Untuk soal esai, AI dapat memberikan analisis pendahuluan berdasarkan grammar, relevansi jawaban, dan jumlah kata sebelum guru memberikan penilaian akhir.
+  Chatbot AI untuk Bantuan Cepat: Guru dapat menggunakan AI Chatbot yang tersedia di dalam platform untuk mendapatkan bantuan cepat terkait penggunaan platform, pengelolaan materi, hingga panduan penilaian. Chatbot dapat membantu guru menghemat waktu untuk operasional website.
+  2. Fitur Murid dengan AI
+  Chatbot Pembelajaran Berbasis AI: Murid dapat mengakses AI Chatbot untuk bertanya tentang materi pelajaran secara langsung. Chatbot ini bisa membantu menjelaskan materi yang belum dipahami murid, memberikan penjelasan tambahan, atau memberikan jawaban atas pertanyaan-pertanyaan sederhana. Ini akan mempermudah murid yang membutuhkan bantuan di luar jam belajar.
+  Rekomendasi Materi: AI dapat merekomendasikan materi tambahan yang sesuai dengan performa murid di ujian atau tugas. Misalnya, jika seorang murid mengalami kesulitan di matematika, sistem akan memberikan saran untuk mempelajari kembali materi tertentu yang relevan.
+  Penjadwalan Belajar yang Dipersonalisasi: AI dapat membantu murid merencanakan jadwal belajar yang efektif berdasarkan data performa mereka (nilai tugas dan ujian), serta mengingatkan mereka tentang tenggat waktu tugas atau ujian yang mendekat.
+  3. Fitur Admin dengan AI
+  Manajemen Otomatis dan Prediksi: AI dapat digunakan oleh admin untuk memprediksi jumlah murid yang membutuhkan bantuan tambahan di mata pelajaran tertentu berdasarkan analisis nilai. AI juga dapat merekomendasikan pengaturan ulang kelas atau mata pelajaran berdasarkan performa kelas secara keseluruhan.
+  Chatbot Bantuan Administrasi: Admin dapat memanfaatkan chatbot AI untuk membantu menjawab pertanyaan terkait pengelolaan akun, perubahan struktur kelas, dan pengaturan lainnya. Chatbot ini dapat mengotomatisasi pertanyaan rutin, sehingga admin dapat fokus pada pekerjaan yang lebih kompleks.
+
+Lokasi Integrasi AI dalam Website
+  Dashboard Guru:
+  -Fitur Rekomendasi Soal ditempatkan di halaman pembuatan tugas dan ujian.
+  -Fitur Penilaian Otomatis akan diaktifkan setelah murid menyelesaikan tugas atau ujian.
+  -AI Chatbot bisa ditempatkan di pojok kanan bawah layar, memberikan akses cepat bagi guru untuk mendapatkan bantuan teknis atau rekomendasi fitur.
+  
+  Dashboard Murid:
+  -AI Chatbot Pembelajaran akan tersedia di setiap halaman materi atau ujian, memberikan bantuan cepat ketika murid kesulitan memahami pelajaran.
+  -Rekomendasi Materi muncul di bagian bawah materi pelajaran atau setelah hasil ujian ditampilkan.
+  -Penjadwalan Belajar akan ada di dashboard murid, dengan tampilan kalender yang secara otomatis memberikan saran jadwal belajar berdasarkan aktivitas murid.
+  
+  Dashboard Admin:
+  -Prediksi dan Manajemen Otomatis akan berada di bagian manajemen kelas dan mata pelajaran, sehingga admin dapat dengan mudah melihat prediksi performa kelas dan saran pengaturan ulang.
+  -AI Chatbot ditempatkan di pojok kanan bawah layar, khusus untuk membantu menjawab pertanyaan administratif.
+
+
+Metode yang digunakan dalam penelitian ini meliputi:
+
+  -Analisis Kebutuhan: Mengumpulkan informasi dari pihak sekolah mengenai kebutuhan fitur-fitur yang dibutuhkan dalam website.
+  -Perancangan Sistem: Membuat desain antarmuka dan struktur database yang sesuai dengan kebutuhan fungsional dari guru, murid, dan admin serta mengintegrasikan AI dalam fitur-fitur utama..
+  -Pengembangan Sistem: Pengembangan Sistem: Menggunakan teknologi AI yang relevan (seperti machine learning untuk penilaian otomatis, chatbot berbasis NLP, dan algoritma rekomendasi).
+  -Pengujian: Melakukan uji coba sistem kepada beberapa guru, murid, dan admin untuk memastikan AI berfungsi dengan baik dan membantu pengguna.
+  -Evaluasi: Mengumpulkan feedback dari pengguna terkait efektivitas fitur AI untuk dilakukan perbaikan atau penyesuaian untuk menyempurnakan sistem.
+
+Hasil yang Diharapkan
+Dengan integrasi AI, website ini diharapkan tidak hanya membantu memfasilitasi proses belajar mengajar secara efektif, tetapi juga memberikan pengalaman yang lebih personal dan interaktif bagi semua pengguna. Selain itu, website ini juga dapat memberikan wawasan lebih bagi guru dan admin dalam mengelola pendidikan yang lebih baik.
